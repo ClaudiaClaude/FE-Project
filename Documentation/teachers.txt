@@ -1,0 +1,19 @@
+export const Teacher = [
+    {
+        fName: "Jane",
+        lName: "Doe",
+        img: "https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049_960_720.png",
+        spec: "Our  best web-development expert"
+    },
+    {
+        fName: "Jack",
+        lName: "Rossi",
+        img: "https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049_960_720.png",
+        spec: "Our other best web-development expert"
+    },{
+        fName: "Julie",
+        lName: "Mustermann",
+        img: "https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049_960_720.png",
+        spec: "Our newer web-development expert"
+    }
+]

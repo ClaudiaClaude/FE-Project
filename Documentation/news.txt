@@ -1,0 +1,25 @@
+This is the Dummy content I created to input in the real TS file
+
+export const News = [
+    {
+        img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.dribbble.com%2Fusers%2F115601%2Fscreenshots%2F3280078%2Fcamera-photo-cion-transition.gif&f=1&nofb=1",
+        title: "Dummy Title whatever whatever",
+        txt: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur velit exercitationem omnis, vitae necessitatibus placeat doloremque laborum quisquam cumque dolore est molestiae ex eum dolor aliquam officia odit, amet mollitia!",
+        link: "#"
+    },
+    {
+        img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.dribbble.com%2Fusers%2F115601%2Fscreenshots%2F3280078%2Fcamera-photo-cion-transition.gif&f=1&nofb=1",
+        title: "Dummy Title yes they are different",
+        txt: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur velit exercitationem omnis, vitae necessitatibus placeat doloremque laborum quisquam cumque dolore est molestiae ex eum dolor aliquam officia odit, amet mollitia!",
+        link: "#"
+    },
+    {
+        img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.dribbble.com%2Fusers%2F115601%2Fscreenshots%2F3280078%2Fcamera-photo-cion-transition.gif&f=1&nofb=1",
+        title: "Dummy Title it's not that",
+        txt: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur velit exercitationem omnis, vitae necessitatibus placeat doloremque laborum quisquam cumque dolore est molestiae ex eum dolor aliquam officia odit, amet mollitia!",
+        link: "#"
+    }
+]
+
+
+

@@ -1,1 +1,25 @@
-<p>news works!</p>
+<!-- News Section Element -->
+
+<div class="news_body container my-4">
+    <div class="row p-2">
+        <!-- Start of the single news Loop! -->
+        <div *ngFor="let entry of news" class="col-4" >
+            <div class="news_card p-2">
+                <div class="news_title">
+                    <h1 class="col-12">{{entry.title}}</h1>
+                </div>
+                <div class="row">
+                    <div class="col-4 my-2 img_container">
+                        <img src="{{entry.img}}" alt="" class="h-100 news_img">
+                    </div>
+                    <div class="col-8 row p-2">
+                        <div class="">{{entry.txt}}</div>
+                        <div class="row justify-content-end">
+                            <div class="col-12 text-right">Read More >>></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

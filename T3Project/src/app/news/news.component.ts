@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { News } from 'src/course_data';
 
 @Component({
   selector: 'app-news',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./news.component.scss']
 })
 export class NewsComponent implements OnInit {
+
+  news = News;
 
   constructor() { }
 

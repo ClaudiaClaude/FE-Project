@@ -1,1 +1,28 @@
 <p>offers works!</p>
+
+<div class="container-fluid">
+    <div class="text-center">
+        <h2>Pricing</h2>
+        <h4>Choose a payment plan that works for you</h4>
+    </div>
+    <div class="row">
+        <div class="col-sm-4" *ngFor="let val of Course">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <h1>{{val.name}}</h1>
+                    <!-- <h1>{{val.offer_name[0]}}</h1> -->
+                </div>
+                <div class="panel-body">
+                    <p><strong>{{val.offer_name[0]}}</strong> {{val.offer_price[0]| currency}}</p>
+                    <p><strong> {{val.offer_name[1]}}</strong> {{val.offer_price[1]| currency}}</p>
+                    <p><strong>{{val.offer_name[2]}}</strong> {{val.offer_price[2]| currency}}</p>
+
+                </div>
+                <div class="panel-footer">
+                    <h3>$19</h3>
+                    <h4>per month</h4>
+                    <button class="btn btn-lg"> {{val.offer_link[0]}}</button>
+                </div>
+            </div>
+        </div>
+    </div>

@@ -1,7 +1,12 @@
+@import '../../variables';
+
 .nav_style {
     
     height:5rem;
     width:100%;
+
+    font-family: $ourFontBasic !important;
+    font-weight: $fontBold !important;
 
 
     .nav_logo {

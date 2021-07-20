@@ -4,8 +4,32 @@ export const Course = [
     description: '',
     video: '',
     techtxt: '',
-    tech: [],
-    techlogo: [],
+    tech: [
+      'Github',
+      'HTML',
+      'CSS',
+      'Javascript',
+      'Bootstrap',
+      'Angular',
+      'SQL (MySWL)',
+      'PHP',
+      'AJAX',
+      'Symfony',
+      'Software-Tests',
+    ],
+    techlogo: [
+      'fab fa-github-square',
+      'fab fa-html5',
+      'fab fa-css3-alt',
+      'fab fa-js',
+      'fab fa-bootstrap',
+      'fab fa-angular',
+      'fas fa-database',
+      'fab fa-php',
+      'fas fa-tachometer-alt',
+      'fab fa-symfony',
+      'fas fa-vial',
+    ],
     offer_name: ['Basic', 'intermediat', 'advance'],
     offer_price: [1000, 2000, 3000],
     offer_link: [
@@ -87,3 +111,22 @@ export const News = [
     link: '#',
   },
 ];
+
+export const MainDescription = [
+  {
+    cardTitle: "Hands-on learning vom ersten Tag",
+    cardText: "All unsere Kurse zeichnen sich durch ein Maximum an praktischem Arbeiten aus. Wir glauben, dass man Programmieren nur durch Programmieren lernen kann.",
+  },
+  {
+    cardTitle: "In 15 Wochen zum Juniordeveloper",
+    cardText: "Lerne in nur 15 Wochen alles über Web-Entwicklung und IT was Du zum Berufseinstieg brauchst. Vom ersten Tag „hands-on“ an Praxisbeispielen arbeiten!",
+  },
+  {
+    cardTitle: "Sammle Erfahrungen in realen Kundenprojekten",
+    cardText: "Die Abschlussprojekte unserer Schüler stammen von realen Kunden, von der NGO bis zum mittelgroßen Unternehmen. Mit diesen Referenzen und Arbeitszeugnissen im Portfolio fällt der Berufseinstieg leicht.",
+  },
+  {
+    cardTitle: "Team-work makes the Dream-work",
+    cardText: "Deshalb wird bei uns von Tag eins an in Zweierteams und Gruppen an projektbezogenen Aufgaben gearbeitet.",
+  }
+]

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Course } from 'src/course_data';
 
 @Component({
   selector: 'app-main-section',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main-section.component.scss']
 })
 export class MainSectionComponent implements OnInit {
-
+  Course = Course;
   constructor() { }
 
   ngOnInit(): void {

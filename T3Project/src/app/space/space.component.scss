@@ -1,0 +1,26 @@
+.title {
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 50px;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .classroom-img {
+    border-radius: 10px;
+    // margin: 0 auto;
+    width: 100vw;
+  }
+
+  .classroom-text {
+    margin: 30px 50px 0;
+    align-self: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .flex {
+    flex-direction: row;
+  }
+}

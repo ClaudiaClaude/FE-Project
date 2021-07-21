@@ -30,7 +30,22 @@ export const Course = [
       'fab fa-symfony',
       'fas fa-vial',
     ],
-    offer_name: ['Basic', 'intermediat', 'advance'],
+    offer_name: ['Basic', 'Intermediate', 'Advanced'],
+    offer_price: [1000, 2000, 3000],
+    offer_link: [
+      'www.codefactory.com',
+      'www.codefactory.com',
+      'www.codefactory.com',
+    ],
+  },
+  {
+    name: 'Software Testing',
+    description: '',
+    video: '',
+    techtxt: '',
+    tech: [],
+    techlogo: [],
+    offer_name: ['Basic', 'Intermediate', 'Advanced'],
     offer_price: [1000, 2000, 3000],
     offer_link: [
       'www.codefactory.com',
@@ -45,22 +60,7 @@ export const Course = [
     techtxt: '',
     tech: [],
     techlogo: [],
-    offer_name: ['Basic', 'intermediat', 'advance'],
-    offer_price: [1000, 2000, 3000],
-    offer_link: [
-      'www.codefactory.com',
-      'www.codefactory.com',
-      'www.codefactory.com',
-    ],
-  },
-  {
-    name: 'Softwar Testing',
-    description: '',
-    video: '',
-    techtxt: '',
-    tech: [],
-    techlogo: [],
-    offer_name: ['Basic', 'intermediat', 'advance'],
+    offer_name: ['Basic', 'Intermediate', 'Advanced'],
     offer_price: [1000, 2000, 3000],
     offer_link: [
       'www.codefactory.com',
@@ -114,17 +114,17 @@ export const News = [
 
 export const MainDescription = [
   {
-    cardTitle: 'Hands-on learning vom ersten Tag',
+    cardTitle: 'Hands-on learning',
     cardText:
-      'All unsere Kurse zeichnen sich durch ein Maximum an praktischem Arbeiten aus. Wir glauben, dass man Programmieren nur durch Programmieren lernen kann.',
+      'All our courses are characterized by a maximum of practical work. We believe that you can only learn programming by programming.',
   },
   {
-    cardTitle: 'In 15 Wochen zum Juniordeveloper',
+    cardTitle: 'Become a junior developer in 15 weeks',
     cardText:
-      'Lerne in nur 15 Wochen alles über Web-Entwicklung und IT was Du zum Berufseinstieg brauchst. Vom ersten Tag „hands-on“ an Praxisbeispielen arbeiten!',
+      'Learn everything about web development and IT that you need to start your career in just 15 weeks. Work on practical examples from the first day!',
   },
   {
-    cardTitle: 'Sammle Erfahrungen in realen Kundenprojekten',
+    cardTitle: 'Sammle Erfahrungen in realen Projekten',
     cardText:
       'Die Abschlussprojekte unserer Schüler stammen von realen Kunden, von der NGO bis zum mittelgroßen Unternehmen. Mit diesen Referenzen und Arbeitszeugnissen im Portfolio fällt der Berufseinstieg leicht.',
   },

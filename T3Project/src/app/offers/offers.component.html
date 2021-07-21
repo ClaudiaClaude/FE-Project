@@ -1,16 +1,16 @@
-<div class="container-fluid">
+<div class="container-fluid my-4 mb-5">
   <div class="text-center">
-    <h2>Pricing</h2>
-    <h4>Choose a payment plan that works for you</h4>
+    <h3 class="mt-5">Pricing</h3>
+    <h4 class="mt-0 mb-5">Choose a payment plan that works for you</h4>
   </div>
-  <div class="row">
-    <div class="col-sm-4" *ngFor="let val of Course">
+  <div class="row justify-content-center gap-5">
+    <div class="col-md-3" *ngFor="let val of Course">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h1>{{ val.name }}</h1>
+          <h4>{{ val.name }}</h4>
           <!-- <h1>{{val.offer_name[0]}}</h1> -->
         </div>
-        <div class="panel-body">
+        <div class="panel-body p-3">
           <p>
             <strong>{{ val.offer_name[0] }}</strong>
             {{ val.offer_price[0] | currency }}

@@ -18,17 +18,22 @@
     border-radius: 10px;
   }
 
-  .tech {
-    border: 1px solid hsl(200, 0%, 90%);
+  .middle {
     border-radius: 10px;
-    box-shadow: 5px 5px 5px rgb(128, 128, 128);
     padding: 1rem 2rem;
-    background: rgb(66, 166, 79);
-    background: linear-gradient(
-      180deg,
-      hsl(273, 70%, 70%) 30%,
-      hsl(224, 70%, 70%) 100%
-    );
+    // background: linear-gradient(
+    //   90deg,
+    //   hsl(273, 70%, 70%) 35%,
+    //   hsl(224, 70%, 70%) 65%
+    // );
+  }
+
+  .tech {
+    // border: 1px solid hsl(200, 0%, 90%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(153, 153, 153);
+    padding: 1rem 2rem;
+    background: hsl(34, 100%, 71%);
 
     h5 {
       font-weight: 600;
@@ -50,7 +55,7 @@
 
   @media (min-width: 768px) {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 }
 

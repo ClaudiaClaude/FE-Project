@@ -1,3 +1,7 @@
+.container-fluid {
+  background-color: hsl(176, 63%, 87%);
+}
+
 .title {
   text-align: center;
   padding: 10px 0;
@@ -15,6 +19,10 @@
   .classroom-text {
     margin: 30px 50px 0;
     align-self: center;
+    box-shadow: 2px 3px 10px rgb(153, 153, 153);
+    background-color: hsl(34, 100%, 71%);
+    padding: 1rem 2rem;
+    border-radius: 10px;
   }
 }
 

@@ -11,10 +11,13 @@
   --weight3: 600;
 }
 
-body {
+.container-main {
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   background-color: var(--veryLightGray);
+
+  
+
 }
 
 .attribution {
@@ -45,15 +48,29 @@ h1:last-of-type {
   line-height: 0.8;
   margin-bottom: 20px;
   margin-top: 10px;
+  padding-top: 3em;
 
-  h1 {
+
+
+  h1{
     font-size: 500%;
+    font-weight: bold;
+  }
+
+  h2{
+    font-family: 'Caveat', cursive;
+  }
+
+  p{
+    padding-top: 1em;
+    font-size:300%;
+    
   }
 }
 
 .header p {
   margin: 0 auto;
-  line-height: 2;
+  line-height: 1.2;
   color: var(--grayishBlue);
 }
 
@@ -134,3 +151,4 @@ h2 {
     width: 30%;
   }
 }
+

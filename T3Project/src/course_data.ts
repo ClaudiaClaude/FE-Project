@@ -122,7 +122,7 @@ export const MainDescription = [
     cardText: "Lerne in nur 15 Wochen alles über Web-Entwicklung und IT was Du zum Berufseinstieg brauchst. Vom ersten Tag „hands-on“ an Praxisbeispielen arbeiten!",
   },
   {
-    cardTitle: "Sammle Erfahrungen in realen Kundenprojekten",
+    cardTitle: "Sammle Erfahrungen in realen Projekten",
     cardText: "Die Abschlussprojekte unserer Schüler stammen von realen Kunden, von der NGO bis zum mittelgroßen Unternehmen. Mit diesen Referenzen und Arbeitszeugnissen im Portfolio fällt der Berufseinstieg leicht.",
   },
   {

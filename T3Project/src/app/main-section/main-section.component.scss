@@ -75,15 +75,22 @@ img {
 
 @media (max-width: 450px) {
   .box {
-      height: 200px;
+      height: 350px;
   }
 }
 
-@media (max-width: 950px) and (min-width: 450px) {
+@media (max-width: 700px) and (min-width: 450px) {
   .box {
       text-align: center;
-      height: 180px;
+      height: 300px;
   }
+}
+
+@media (min-width: 701px) and (max-width: 1274px){
+  .box {
+    text-align: center;
+    height: 230px;
+}
 }
 
 .cyan {
@@ -105,7 +112,7 @@ h2 {
 }
 
 
-@media (min-width: 950px) {
+@media (min-width: 1275px){
   .row1-container {
       display: flex;
       justify-content: center;
@@ -123,6 +130,7 @@ h2 {
   }
   .box {
       width: 20%;
+      height: 450px;
    
   }
   .header p {
@@ -130,5 +138,6 @@ h2 {
   }
   
 }
-  
+
+
   

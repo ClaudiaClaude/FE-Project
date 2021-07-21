@@ -2,7 +2,7 @@ export const Course = [
   {
     name: 'Full Stack',
     description: '',
-    video: '',
+    video: 'https://www.youtube.com/embed/xZ99x77cgSk',
     techtxt: '',
     tech: [
       'Github',
